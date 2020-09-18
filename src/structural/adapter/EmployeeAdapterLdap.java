@@ -29,7 +29,7 @@ public class EmployeeAdapterLdap implements Employee {
 
     @Override
     public String toString() {
-        return "EmployeeDB{" +
+        return "EmployeeLdap{" +
                 "id='" + instance.getCn() + '\'' +
                 ", firstName='" + instance.getGivenName() + '\'' +
                 ", lastName='" + instance.getSurName() + '\'' +
